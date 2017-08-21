@@ -65,7 +65,8 @@ class WastedTableViewController: UITableViewController {
         
 
         // Configure the cell...
-        let expensearray = wasted[indexPath.row]
+        let sortedMoney = wasted.sorted(by: {$0.expensedate > $1.expensedate})
+        let expensearray = sortedMoney[indexPath.row]
         let formatter = DateFormatter()
         formatter.dateFormat = "yy.MM.dd"
         let cell : WastedWastedTableViewCell = tableView.dequeueReusableCell(withIdentifier: "Wasted", for: indexPath) as! WastedWastedTableViewCell

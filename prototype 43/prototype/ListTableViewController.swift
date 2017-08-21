@@ -65,7 +65,8 @@ class ListTableViewController: UITableViewController {
 
         // Configure the cell...
         let cell : ExpenseTableViewCell = tableView.dequeueReusableCell(withIdentifier: "Expense", for: indexPath) as! ExpenseTableViewCell
-        let expensearray = money[indexPath.row]
+        let sortedMoney = money.sorted(by: {$0.expensedate > $1.expensedate})
+        let expensearray = sortedMoney[indexPath.row]
         let formatter = DateFormatter()
         formatter.dateFormat = "yy.MM.dd"
         cell.exDate.text = "\(formatter.string(from: expensearray.expensedate))"

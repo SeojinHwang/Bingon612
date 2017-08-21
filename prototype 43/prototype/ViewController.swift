@@ -94,7 +94,7 @@ class ViewController: UIViewController {
             case 3 :
                 StarImage.image = UIImage(named: "3stars.png")
             case 2 :
-                StarImage.image = UIImage(named: "2stars.png")
+                StarImage.image = UIImage(named: "2star.png")
             case 1 :
                 StarImage.image = UIImage(named: "1stars.png")
             default :

@@ -5,17 +5,24 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "9821E867A36BECBA03624918CEDC502AE62B2679" : 9223372036854775807,
-    "CE14087BF91FD74AABA06593D585EC9A200939B5" : 9223372036854775807
+    "CE14087BF91FD74AABA06593D585EC9A200939B5" : 9223372036854775807,
+    "28121752118C699F48C780C084656097933D5A89" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86645F35-AAF2-4C82-A4D4-7C77CA9623A3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9821E867A36BECBA03624918CEDC502AE62B2679" : "prototype%2042\/Pods\/",
-    "CE14087BF91FD74AABA06593D585EC9A200939B5" : "prototype%2042\/"
+    "9821E867A36BECBA03624918CEDC502AE62B2679" : "prototype%2043\/Pods\/",
+    "CE14087BF91FD74AABA06593D585EC9A200939B5" : "..\/..\/..\/Downloads\/prototype%2042",
+    "28121752118C699F48C780C084656097933D5A89" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "prototype",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "prototype.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProjectInTheClass\/Bingon612.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28121752118C699F48C780C084656097933D5A89"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProjectInTheClass\/Bingon612.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
