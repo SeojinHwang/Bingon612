@@ -21,6 +21,7 @@
 		141FD73D1F4AB5A80082DA6E /* homeDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 141FD7391F4AB5A80082DA6E /* homeDefault.png */; };
 		141FD73E1F4AB5A80082DA6E /* settingsDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 141FD73A1F4AB5A80082DA6E /* settingsDefault.png */; };
 		141FD7401F4AB8CE0082DA6E /* 2star.png in Resources */ = {isa = PBXBuildFile; fileRef = 141FD73F1F4AB8CE0082DA6E /* 2star.png */; };
+		141FD7421F4AC3310082DA6E /* TabbatitemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FD7411F4AC3310082DA6E /* TabbatitemViewController.swift */; };
 		1452D0F01F44361D00D2BB7B /* WIshTopLayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452D0EF1F44361D00D2BB7B /* WIshTopLayoutCell.swift */; };
 		1452D0F21F44362900D2BB7B /* WishlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452D0F11F44362900D2BB7B /* WishlistTableViewController.swift */; };
 		1452D0F41F44363600D2BB7B /* WIshModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452D0F31F44363600D2BB7B /* WIshModalViewController.swift */; };
@@ -73,6 +74,7 @@
 		141FD7391F4AB5A80082DA6E /* homeDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeDefault.png; sourceTree = "<group>"; };
 		141FD73A1F4AB5A80082DA6E /* settingsDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsDefault.png; sourceTree = "<group>"; };
 		141FD73F1F4AB8CE0082DA6E /* 2star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2star.png; sourceTree = "<group>"; };
+		141FD7411F4AC3310082DA6E /* TabbatitemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbatitemViewController.swift; sourceTree = "<group>"; };
 		1452D0EF1F44361D00D2BB7B /* WIshTopLayoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIshTopLayoutCell.swift; sourceTree = "<group>"; };
 		1452D0F11F44362900D2BB7B /* WishlistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistTableViewController.swift; sourceTree = "<group>"; };
 		1452D0F31F44363600D2BB7B /* WIshModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIshModalViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				1CB94A0A1F31C6D600E36261 /* AppDelegate.swift */,
 				1CB94A0C1F31C6D600E36261 /* ViewController.swift */,
+				141FD7411F4AC3310082DA6E /* TabbatitemViewController.swift */,
 				0CCB24BA1F45523300B96684 /* NotificationDelegate.swift */,
 				1CB94A0E1F31C6D600E36261 /* Main.storyboard */,
 				0CCB24BE1F45619300B96684 /* ExpenseTableViewCell.swift */,
@@ -385,6 +388,7 @@
 				18B17EFA1F40B1D60029933E /* InitiateViewController.swift in Sources */,
 				18B17EF41F40AE440029933E /* ExpenseViewController.swift in Sources */,
 				0CCB24C31F4562D500B96684 /* WastedWastedTableViewCell.swift in Sources */,
+				141FD7421F4AC3310082DA6E /* TabbatitemViewController.swift in Sources */,
 				AD3D01141F3AFF4600F03A8C /* ListTableViewController.swift in Sources */,
 				1CB94A0B1F31C6D600E36261 /* AppDelegate.swift in Sources */,
 				18B17EF21F40A9ED0029933E /* IncomeViewController.swift in Sources */,

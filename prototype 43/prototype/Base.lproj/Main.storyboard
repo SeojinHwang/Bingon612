@@ -457,10 +457,10 @@
             </objects>
             <point key="canvasLocation" x="1574" y="269"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tabbatitem View Controller-->
         <scene sceneID="Y78-z8-Z4W">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="D05-at-gyH" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="D05-at-gyH" customClass="TabbatitemViewController" customModule="prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="tdo-TD-Zou">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>

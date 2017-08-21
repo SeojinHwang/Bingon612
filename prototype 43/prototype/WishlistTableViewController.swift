@@ -44,6 +44,9 @@ class WishlistTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         arrayOfWish = getSomeObject()
         self.tableView.reloadData() //추가된 정보를 받아 테이블뷰를 다시 리턴하는 함수
+      //  super.viewWillAppear(animated)
+       // self.tabBarController?.tabBar.tintColor = UIColor.black
+
         }
 
     
