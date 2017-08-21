@@ -44,6 +44,9 @@ class ListViewController: UIViewController {
         
         leftMoney.text = "\(data.wholemoney)원"
         leftDays.text = "남은 일수 \(data.wholedays)일"
+       // super.viewWillAppear(animated)
+       // self.tabBarController?.tabBar.tintColor = UIColor.black
+
 
     }
 

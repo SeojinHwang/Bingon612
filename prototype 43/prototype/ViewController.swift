@@ -46,6 +46,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(Realm.Configuration.defaultConfiguration.fileURL!)// Do any additional setup after loading the view, typically from a nib.
+        //self.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.red], for:.)
+
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -109,6 +111,9 @@ class ViewController: UIViewController {
         else {
             StarImage.image = UIImage(named: "0stars.png")
         }
+        
+        //super.viewWillAppear(animated)
+        //self.tabBarController?.tabBar.tintColor = UIColor.black
     }
 
     @IBAction func unwindFromIncomeVC(segue: UIStoryboardSegue){
@@ -202,6 +207,10 @@ class ViewController: UIViewController {
     }
     
 
+    
+
+    
+    
     
     
 }
